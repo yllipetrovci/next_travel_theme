@@ -2,3 +2,41 @@
 Theme Name:  Next Travel Theme
 Author: Ylli Petrovci
 */
+
+body {
+    margin: 0;
+}
+
+.container {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li{
+
+}
+
+.header {
+    padding: 0 80px;
+    background-color: #f2f2f2;
+}
+
+.header .header__ul {
+    display: inline-flex;
+    padding: 8px 0;
+}
+
+.header .header__ul li {
+    margin-right: 20px;
+}
+
+.header .header__ul li:last-child {
+    margin-right: 0;
+}

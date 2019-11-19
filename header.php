@@ -23,4 +23,10 @@
 </head>
 
 <body>
-    <h1>Header</h1>
+    <header class="header">
+        <ul class="header__ul">
+            <li>+383 0 38 220 220</li>
+            <li>+383 0 38 220 220</li>
+            <li>+383 0 38 220 220</li>
+        </ul>
+    </header>
