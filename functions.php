@@ -4,7 +4,7 @@
  */
 function load_stylesheets()
 {
-    wp_register_style('stylesheet','style.css', '', 1, 'all');
+    wp_register_style('stylesheet',get_stylesheet_uri());
     wp_enqueue_style('stylesheet');
 }
 add_action('wp_enqueue_scripts', 'load_stylesheets');
