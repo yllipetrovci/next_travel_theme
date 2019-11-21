@@ -18,6 +18,7 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
     <?php wp_head(); ?>
 </head>
@@ -30,3 +31,17 @@
             <li>+383 0 38 220 220</li>
         </ul>
     </header>
+    <div class="nav-wrapper">
+        <nav class="container d-flex align-items-center justify-content-between">
+
+            <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" class="img-fluid logo" />
+            <?php
+            wp_nav_menu(
+                array(
+                    'theme_location' => 'top-menu',
+                    'menu_class' => 'top-menu d-flex '
+                )
+            );
+            ?>
+        </nav>
+    </div>
